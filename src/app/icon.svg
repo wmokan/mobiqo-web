@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00E5FF"/>
-      <stop offset="1" stop-color="#7C5CFF"/>
+      <stop stop-color="#F472B6"/>
+      <stop offset="1" stop-color="#00E5FF"/>
     </linearGradient>
   </defs>
   <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#g)"/>
-  <path d="M9 21V11h2.4l3 5.2 3-5.2H19.8v10h-2.2v-5.6l-2.4 4.2h-1.6l-2.4-4.2V21H9zm14 0v-1.6c-.7.7-1.6 1.1-2.7 1.1-2.3 0-4.1-1.8-4.1-4.5s1.8-4.5 4.1-4.5c1.1 0 2 .4 2.7 1.1V11h2.2v10H23z" fill="#0a0b0f"/>
+  <text x="16" y="25" text-anchor="middle" font-size="22" font-weight="800" font-family="-apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', Roboto, sans-serif" fill="#0a0b0f">m</text>
 </svg>
