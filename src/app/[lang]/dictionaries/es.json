@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "mobiqo — Inteligencia móvil, productos simples",
+    "description": "mobiqo es un estudio de software que crea productos móviles y web inteligentes, simples y elegantes."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "products": "Productos"
+  },
+  "hero": {
+    "eyebrow": "Estudio de software mobile-first",
+    "title_1": "Inteligencia móvil.",
+    "title_2": "Productos simples.",
+    "subtitle": "mobiqo diseña y desarrolla aplicaciones móviles y web inteligentes que la gente disfruta usar cada día.",
+    "cta_primary": "Contáctanos",
+    "cta_secondary": "Sobre nosotros"
+  },
+  "about": {
+    "eyebrow": "Nosotros",
+    "title": "Un equipo pequeño con una visión clara.",
+    "body_1": "mobiqo es un estudio de software centrado en lo móvil. Convertimos necesidades complejas en productos digitales simples, rápidos y bellos.",
+    "body_2": "Diseñamos, construimos y mantenemos nuestros productos de principio a fin — uniendo diseño, ingeniería y estrategia bajo un mismo techo.",
+    "values": [
+      {
+        "title": "Simplicidad",
+        "desc": "Menos pero correcto. Cada pantalla e interacción tiene un propósito."
+      },
+      {
+        "title": "Rendimiento",
+        "desc": "Rápido, fluido y confiable. A nadie le gusta esperar — a nosotros tampoco."
+      },
+      {
+        "title": "Estética",
+        "desc": "Lo bello se usa. El diseño importa tanto como el producto en sí."
+      },
+      {
+        "title": "Continuidad",
+        "desc": "Nuestros productos viven mientras se usan, no solo hasta el lanzamiento."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "¿Tienes una idea? Hablemos.",
+    "subtitle": "Escríbenos para colaboraciones, comentarios o simplemente para saludar.",
+    "email_label": "Correo",
+    "email": "hello@mobiqo.app",
+    "location_label": "Ubicación",
+    "location": "Türkiye"
+  },
+  "footer": {
+    "tagline": "Inteligencia móvil, productos simples.",
+    "rights": "Todos los derechos reservados.",
+    "made_in": "Diseñado en Türkiye"
+  }
+}

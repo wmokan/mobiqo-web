@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "mobiqo — Mobil zekâ, sade ürünler",
+    "description": "mobiqo; iOS ve web için akıllı, sade ve estetik mobil ürünler geliştiren bir yazılım stüdyosudur."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "products": "Ürünler"
+  },
+  "hero": {
+    "eyebrow": "Mobil odaklı yazılım stüdyosu",
+    "title_1": "Mobil zekâ.",
+    "title_2": "Sade ürünler.",
+    "subtitle": "mobiqo; insanların her gün keyifle kullandığı akıllı mobil ve web uygulamaları tasarlar ve geliştirir.",
+    "cta_primary": "Bize Ulaşın",
+    "cta_secondary": "Hakkımızda"
+  },
+  "about": {
+    "eyebrow": "Hakkımızda",
+    "title": "Küçük bir ekip, net bir vizyon.",
+    "body_1": "mobiqo, mobil odaklı bir yazılım stüdyosudur. Karmaşık ihtiyaçları sadeleştirilmiş, hızlı ve estetik dijital ürünlere dönüştürüyoruz.",
+    "body_2": "Ürünlerimizi sıfırdan tasarlıyor, geliştiriyor ve sürdürüyoruz; tasarım, mühendislik ve ürün stratejisini aynı çatı altında birleştiriyoruz.",
+    "values": [
+      {
+        "title": "Sadelik",
+        "desc": "Az ama doğru. Her ekran, her etkileşim bir amaca hizmet eder."
+      },
+      {
+        "title": "Performans",
+        "desc": "Hızlı, akıcı ve güvenilir. Kullanıcı beklemeyi sevmez, biz de."
+      },
+      {
+        "title": "Estetik",
+        "desc": "Güzel olan kullanılır. Tasarım, ürünün kendisi kadar önemlidir."
+      },
+      {
+        "title": "Süreklilik",
+        "desc": "Ürünlerimiz teslim ettiğimiz an değil, kullanıldığı sürece yaşar."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "İletişim",
+    "title": "Bir fikrin mi var? Konuşalım.",
+    "subtitle": "İş birlikleri, geri bildirimler ya da sadece merhaba demek için yazabilirsin.",
+    "email_label": "E-posta",
+    "email": "hello@mobiqo.app",
+    "location_label": "Konum",
+    "location": "Türkiye"
+  },
+  "footer": {
+    "tagline": "Mobil zekâ, sade ürünler.",
+    "rights": "Tüm hakları saklıdır.",
+    "made_in": "Türkiye'de tasarlandı"
+  }
+}

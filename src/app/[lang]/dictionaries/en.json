@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "mobiqo — Mobile intelligence, simple products",
+    "description": "mobiqo is a software studio crafting smart, simple and beautiful mobile and web products."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "products": "Products"
+  },
+  "hero": {
+    "eyebrow": "A mobile-first software studio",
+    "title_1": "Mobile intelligence.",
+    "title_2": "Simple products.",
+    "subtitle": "mobiqo designs and builds smart mobile and web apps that people actually enjoy using every day.",
+    "cta_primary": "Get in touch",
+    "cta_secondary": "About us"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "A small team with a clear vision.",
+    "body_1": "mobiqo is a mobile-first software studio. We turn complex needs into simple, fast and beautiful digital products.",
+    "body_2": "We design, build and maintain our products end-to-end — bringing design, engineering and product strategy under one roof.",
+    "values": [
+      {
+        "title": "Simplicity",
+        "desc": "Less but right. Every screen and interaction serves a purpose."
+      },
+      {
+        "title": "Performance",
+        "desc": "Fast, fluid and reliable. Users hate waiting — so do we."
+      },
+      {
+        "title": "Craft",
+        "desc": "Beautiful gets used. Design matters as much as the product itself."
+      },
+      {
+        "title": "Longevity",
+        "desc": "Our products live as long as they're used, not just until ship day."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Got an idea? Let's talk.",
+    "subtitle": "Reach out for partnerships, feedback, or simply to say hello.",
+    "email_label": "Email",
+    "email": "hello@mobiqo.app",
+    "location_label": "Location",
+    "location": "Türkiye"
+  },
+  "footer": {
+    "tagline": "Mobile intelligence, simple products.",
+    "rights": "All rights reserved.",
+    "made_in": "Designed in Türkiye"
+  }
+}
