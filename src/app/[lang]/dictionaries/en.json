@@ -1,57 +1,174 @@
 {
   "meta": {
-    "title": "mobiqo — Mobile intelligence, simple products",
-    "description": "mobiqo is a software studio crafting smart, simple and beautiful mobile and web products."
+    "title": "mobiqo — a small mobile studio",
+    "description": "mobiqo is a small software studio designing and building iOS apps. One focus: mobile."
   },
   "nav": {
     "home": "Home",
+    "services": "What We Do",
+    "process": "How We Work",
     "about": "About",
-    "contact": "Contact",
-    "products": "Products"
+    "faq": "FAQ",
+    "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "A mobile-first software studio",
-    "title_1": "Mobile intelligence.",
-    "title_2": "Simple products.",
-    "subtitle": "mobiqo designs and builds smart mobile and web apps that people actually enjoy using every day.",
-    "cta_primary": "Get in touch",
-    "cta_secondary": "About us"
+    "eyebrow": "A small mobile studio",
+    "title_1": "Mobile only.",
+    "title_2": "Done right.",
+    "subtitle": "mobiqo is a small team designing, building and shipping iOS apps. We do one thing — and we try to do it well.",
+    "cta_primary": "Let's talk",
+    "cta_secondary": "How we work"
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "title": "One focus: mobile apps.",
+    "body": "We're not a web agency. We don't have a long list of services. The only thing we do is iOS apps — from idea to App Store and beyond. A new idea, an unfinished codebase to take over, or an existing product to grow — the conversation is always the same.",
+    "items": [
+      {
+        "title": "Native iOS",
+        "desc": "Modern apps built with Swift and SwiftUI, true to Apple's platform guidelines."
+      },
+      {
+        "title": "App Store launch",
+        "desc": "Submission, review responses, ASO and launch — handled in-house."
+      },
+      {
+        "title": "Post-launch support",
+        "desc": "Launch isn't a delivery point. We stick around as long as the product lives — bug fixes, iOS updates, new features."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How We Work",
+    "title": "Five steps. Few but clear.",
+    "subtitle": "No surprises. At every stage we tell you what's happening, what we're doing and why.",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Discover",
+        "desc": "We talk through the problem. Who is this for, what behavior are we trying to change, what does success look like?"
+      },
+      {
+        "n": "02",
+        "title": "Design",
+        "desc": "Flows, prototypes, micro-interactions. From paper to Figma to clickable prototype."
+      },
+      {
+        "n": "03",
+        "title": "Build",
+        "desc": "Daily progress in Swift. Weekly TestFlight builds, fast feedback loops."
+      },
+      {
+        "n": "04",
+        "title": "Launch",
+        "desc": "App Store submission, review responses, App Store optimization, launch plan."
+      },
+      {
+        "n": "05",
+        "title": "Sustain",
+        "desc": "Post-launch: user feedback, bug fixes, new iOS compatibility, new features."
+      }
+    ]
+  },
+  "capabilities": {
+    "eyebrow": "Capabilities",
+    "title": "What we use.",
+    "subtitle": "A modern stack that keeps us fast, simple and safe on the mobile side.",
+    "groups": [
+      { "title": "iOS", "items": ["Swift", "SwiftUI", "UIKit", "Combine", "Swift Concurrency"] },
+      { "title": "Backend", "items": ["Node.js", "Cloudflare Workers", "PostgreSQL", "Redis"] },
+      { "title": "Design", "items": ["Figma", "Apple HIG", "SF Symbols"] },
+      { "title": "Infrastructure", "items": ["Xcode Cloud", "TestFlight", "App Store Connect"] }
+    ]
   },
   "about": {
     "eyebrow": "About",
-    "title": "A small team with a clear vision.",
-    "body_1": "mobiqo is a mobile-first software studio. We turn complex needs into simple, fast and beautiful digital products.",
-    "body_2": "We design, build and maintain our products end-to-end — bringing design, engineering and product strategy under one roof.",
+    "title": "A small studio. A clear vision.",
+    "body_1": "mobiqo is a small software studio of a few people. We exist to turn complex problems into simple, fast and beautiful mobile products.",
+    "body_2": "We design, build and maintain our products end-to-end. Design, engineering and product strategy under one roof — same room, same desk, same head.",
     "values": [
+      { "title": "Simplicity", "desc": "Less but right. Every screen serves a purpose." },
+      { "title": "Performance", "desc": "Fast, fluid and reliable. Users hate waiting — so do we." },
+      { "title": "Craft", "desc": "Beautiful gets used. Design matters as much as the product itself." },
+      { "title": "Longevity", "desc": "Our products live as long as they're used, not just until ship day." }
+    ]
+  },
+  "stats": {
+    "eyebrow": "Numbers",
+    "title": "We're just getting started.",
+    "subtitle": "No inflated numbers. Where we are, honestly:",
+    "items": [
+      { "value": "2", "label": "Products in production" },
+      { "value": "iOS", "label": "Single platform focus" },
+      { "value": "< 24h", "label": "First reply time" },
+      { "value": "TR", "label": "Location" }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked.",
+    "items": [
       {
-        "title": "Simplicity",
-        "desc": "Less but right. Every screen and interaction serves a purpose."
+        "q": "How long does building a mobile app take?",
+        "a": "Depends on scope, but a typical v1 takes 2-4 months. A smaller MVP can ship in 6-8 weeks; a larger product can run 6+ months."
       },
       {
-        "title": "Performance",
-        "desc": "Fast, fluid and reliable. Users hate waiting — so do we."
+        "q": "iOS only?",
+        "a": "For now, yes. We don't want to add Android until we can do it well. Focusing on one platform keeps the quality bar high."
       },
       {
-        "title": "Craft",
-        "desc": "Beautiful gets used. Design matters as much as the product itself."
+        "q": "How is pricing decided?",
+        "a": "Every project is different. Instead of a fixed price list, we discuss scope and build a plan together. We aim to be transparent and clear."
       },
       {
-        "title": "Longevity",
-        "desc": "Our products live as long as they're used, not just until ship day."
+        "q": "Can you take over an existing codebase?",
+        "a": "Yes. Auditing an existing Swift project, fixing what's missing and moving it forward is one of the things we do."
+      },
+      {
+        "q": "Do you sign NDAs?",
+        "a": "Yes — an NDA is standard on every project. You can ask for one before sharing your idea."
+      },
+      {
+        "q": "How does post-launch work?",
+        "a": "We work via monthly or project-based support agreements. Sticking around while the product lives in the App Store is just part of the job."
       }
     ]
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Got an idea? Let's talk.",
-    "subtitle": "Reach out for partnerships, feedback, or simply to say hello.",
+    "title": "Let's talk.",
+    "subtitle": "An idea, an unfinished codebase, or just a hello — write to us. We'll reply within 24 hours.",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Your name",
+      "email": "Email",
+      "email_placeholder": "you@example.com",
+      "subject": "Subject",
+      "subject_placeholder": "A short title (optional)",
+      "message": "Message",
+      "message_placeholder": "What would you like to tell us?",
+      "submit": "Send",
+      "submitting": "Sending...",
+      "success_title": "Got it.",
+      "success_body": "Your message reached us. We'll be in touch soon.",
+      "error_title": "Something went wrong.",
+      "error_body": "We couldn't process your message right now. You can email us directly:",
+      "send_another": "Send another",
+      "validation": {
+        "name_required": "Name is required",
+        "email_required": "Email is required",
+        "email_invalid": "Enter a valid email",
+        "message_required": "Message is required",
+        "message_short": "Message is too short"
+      }
+    },
     "email_label": "Email",
     "email": "hello@mobiqo.app",
     "location_label": "Location",
     "location": "Türkiye"
   },
   "footer": {
-    "tagline": "Mobile intelligence, simple products.",
+    "tagline": "A small mobile studio.",
     "rights": "All rights reserved.",
     "made_in": "Designed in Türkiye"
   }
