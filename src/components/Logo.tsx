@@ -23,8 +23,8 @@ export function Logo({ size = 36, className }: Props) {
             y2="32"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#F472B6" />
-            <stop offset="1" stopColor="#00E5FF" />
+            <stop stopColor="#1E40AF" />
+            <stop offset="1" stopColor="#22D3EE" />
           </linearGradient>
         </defs>
         <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#mq-grad)" />
