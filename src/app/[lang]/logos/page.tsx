@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { isLocale } from "@/i18n/config";
 import { marks, markMeta, type MarkVariant } from "@/components/logos/marks";
 
-const variants: MarkVariant[] = ["A", "B", "C", "D", "E"];
+const variants: MarkVariant[] = ["current", "F", "G", "H", "I", "J", "K"];
 
 export const metadata = {
   title: "Logo alternatifleri",
@@ -39,7 +39,14 @@ export default async function LogosPage({ params }: PageProps<"/[lang]">) {
               className="grid gap-6 rounded-2xl border border-border bg-background-elev/40 p-6 sm:grid-cols-[1fr_2fr]"
             >
               <div>
-                <h2 className="text-lg font-semibold tracking-tight">{meta.name}</h2>
+                <div className="flex items-center gap-2">
+                  <h2 className="text-lg font-semibold tracking-tight">{meta.name}</h2>
+                  {meta.tag === "live" ? (
+                    <span className="rounded-full border border-border bg-background-elev/80 px-2 py-0.5 text-[10px] uppercase tracking-wider text-muted">
+                      live
+                    </span>
+                  ) : null}
+                </div>
                 <p className="mt-2 text-sm leading-relaxed text-muted">
                   {meta.desc}
                 </p>
