@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { isLocale } from "@/i18n/config";
 import { marks, markMeta, type MarkVariant } from "@/components/logos/marks";
 
-const variants: MarkVariant[] = ["current", "F", "G", "H", "I", "J", "K"];
+const variants: MarkVariant[] = ["current", "L", "M", "N", "O", "P"];
 
 export const metadata = {
   title: "Logo alternatifleri",
