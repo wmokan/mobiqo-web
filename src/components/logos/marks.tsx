@@ -106,15 +106,15 @@ export function MarkN(props: MarkProps) {
   );
 }
 
-/* O — Cyan → Purple (current palette), single lowercase "m". */
+/* O — Same palette as M (magenta → cyan), single lowercase "m". */
 export function MarkO({ size = 32, className }: MarkProps) {
   return (
     <GradientFrame
       size={size}
       className={className}
       gradientId="mo-grad"
-      c1="#00E5FF"
-      c2="#7C5CFF"
+      c1="#F472B6"
+      c2="#00E5FF"
     >
       <text
         x="16"
@@ -176,8 +176,8 @@ export const markMeta: Record<MarkVariant, { name: string; desc: string; tag?: s
     desc: "Aynı sigil, derin lacivert → cyan. Daha kurumsal, oturmuş bir his.",
   },
   O: {
-    name: "O — tek 'm'",
-    desc: "Mevcut cyan-mor palette, ama 'mq' yerine sadece tek bir 'm'. Daha sade, daha çok nefes.",
+    name: "O — tek 'm', M ile aynı palette",
+    desc: "M ile aynı magenta → cyan, ama 'mq' yerine sadece tek 'm'. M ve O artık doğrudan karşılaştırılabilir — fark sadece harfte.",
   },
   P: {
     name: "P — radial gradient",
