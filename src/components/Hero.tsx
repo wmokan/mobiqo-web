@@ -33,7 +33,7 @@ export function Hero({ lang, dict }: Props) {
               {dict.hero.cta_primary}
             </Link>
             <Link
-              href={`/${lang}#process`}
+              href={`/${lang}#services`}
               className="inline-flex items-center justify-center rounded-full border border-border bg-background-elev/60 px-6 py-3 text-sm font-semibold text-foreground/80 backdrop-blur transition hover:border-accent/40 hover:text-foreground"
             >
               {dict.hero.cta_secondary}

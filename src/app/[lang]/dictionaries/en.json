@@ -1,79 +1,69 @@
 {
   "meta": {
-    "title": "mobiqo — a small mobile studio",
-    "description": "mobiqo is a small software studio designing and building iOS apps. One focus: mobile."
+    "title": "mobiqo — an independent mobile studio",
+    "description": "mobiqo is an independent mobile studio building and shipping its own iOS apps to the App Store."
   },
   "nav": {
     "home": "Home",
-    "services": "What We Do",
+    "services": "Philosophy",
     "process": "How We Work",
     "about": "About",
     "faq": "FAQ",
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "A small mobile studio",
-    "title_1": "Mobile only.",
-    "title_2": "Done right.",
-    "subtitle": "mobiqo is a small team designing, building and shipping iOS apps. We do one thing — and we try to do it well.",
-    "cta_primary": "Let's talk",
-    "cta_secondary": "How we work"
+    "eyebrow": "Independent mobile studio",
+    "title_1": "Apps we make",
+    "title_2": "ourselves.",
+    "subtitle": "mobiqo is an independent studio shipping its own iOS apps to the App Store. No service list, no client roster — only products we've spent a long time getting right.",
+    "cta_primary": "Get in touch",
+    "cta_secondary": "Our philosophy"
   },
   "services": {
-    "eyebrow": "What We Do",
-    "title": "One focus: mobile apps.",
-    "body": "We're not a web agency. We don't have a long list of services. The only thing we do is iOS apps — from idea to App Store and beyond. A new idea, an unfinished codebase to take over, or an existing product to grow — the conversation is always the same.",
+    "eyebrow": "Philosophy",
+    "title": "Few things, made well.",
+    "body": "Instead of pushing out twenty rushed apps a year, we choose to build a few products we can stand behind for years. Every detail considered, every screen agreed on, every line of code our own. No investor pressure, no KPI charts to chase — just the product itself.",
     "items": [
       {
-        "title": "Native iOS",
-        "desc": "Modern apps built with Swift and SwiftUI, true to Apple's platform guidelines."
+        "title": "Independent",
+        "desc": "No investors, no outside owners. We make every decision in favor of the product and its users."
       },
       {
-        "title": "App Store launch",
-        "desc": "Submission, review responses, ASO and launch — handled in-house."
+        "title": "User-first",
+        "desc": "We use everything we ship. We don't release apps we wouldn't open ourselves."
       },
       {
-        "title": "Post-launch support",
-        "desc": "Launch isn't a delivery point. We stick around as long as the product lives — bug fixes, iOS updates, new features."
+        "title": "Long-term",
+        "desc": "Launch is a starting point, not an end. Our products mature over months and years."
       }
     ]
   },
   "process": {
     "eyebrow": "How We Work",
-    "title": "Five steps. Few but clear.",
-    "subtitle": "No surprises. At every stage we tell you what's happening, what we're doing and why.",
+    "title": "Think, build, listen.",
+    "subtitle": "Three repeating steps. No marketing language, no clever-sounding 'framework'.",
     "steps": [
       {
         "n": "01",
-        "title": "Discover",
-        "desc": "We talk through the problem. Who is this for, what behavior are we trying to change, what does success look like?"
+        "title": "Think",
+        "desc": "A problem, a niche, a curiosity. We write down what and why before we touch any code."
       },
       {
         "n": "02",
-        "title": "Design",
-        "desc": "Flows, prototypes, micro-interactions. From paper to Figma to clickable prototype."
+        "title": "Build",
+        "desc": "Swift, SwiftUI, TestFlight. Light builds, fast iteration, design true to Apple's platform."
       },
       {
         "n": "03",
-        "title": "Build",
-        "desc": "Daily progress in Swift. Weekly TestFlight builds, fast feedback loops."
-      },
-      {
-        "n": "04",
-        "title": "Launch",
-        "desc": "App Store submission, review responses, App Store optimization, launch plan."
-      },
-      {
-        "n": "05",
-        "title": "Sustain",
-        "desc": "Post-launch: user feedback, bug fixes, new iOS compatibility, new features."
+        "title": "Listen",
+        "desc": "App Store reviews, user emails, our own daily use. Feedback is the other half of the product."
       }
     ]
   },
   "capabilities": {
-    "eyebrow": "Capabilities",
-    "title": "What we use.",
-    "subtitle": "A modern stack that keeps us fast, simple and safe on the mobile side.",
+    "eyebrow": "Stack",
+    "title": "What we work with.",
+    "subtitle": "Modern, simple, proven. We follow the right thing instead of the latest one.",
     "groups": [
       { "title": "iOS", "items": ["Swift", "SwiftUI", "UIKit", "Combine", "Swift Concurrency"] },
       { "title": "Backend", "items": ["Node.js", "Cloudflare Workers", "PostgreSQL", "Redis"] },
@@ -83,9 +73,9 @@
   },
   "about": {
     "eyebrow": "About",
-    "title": "A small studio. A clear vision.",
-    "body_1": "mobiqo is a small software studio of a few people. We exist to turn complex problems into simple, fast and beautiful mobile products.",
-    "body_2": "We design, build and maintain our products end-to-end. Design, engineering and product strategy under one roof — same room, same desk, same head.",
+    "title": "A small studio with a clear goal.",
+    "body_1": "mobiqo is an independent software studio building and publishing its own mobile products on the App Store. Based in Türkiye, run by a small team.",
+    "body_2": "We have no growth pressure or sales targets to hit. The only thing that drives us is making iOS apps people genuinely want to use, and that last.",
     "values": [
       { "title": "Simplicity", "desc": "Less but right. Every screen serves a purpose." },
       { "title": "Performance", "desc": "Fast, fluid and reliable. Users hate waiting — so do we." },
@@ -95,12 +85,12 @@
   },
   "stats": {
     "eyebrow": "Numbers",
-    "title": "We're just getting started.",
-    "subtitle": "No inflated numbers. Where we are, honestly:",
+    "title": "Where we stand.",
+    "subtitle": "Modest, honest, no inflation:",
     "items": [
-      { "value": "2", "label": "Products in production" },
+      { "value": "2", "label": "Live on App Store" },
       { "value": "iOS", "label": "Single platform focus" },
-      { "value": "< 24h", "label": "First reply time" },
+      { "value": "0", "label": "Outside investors" },
       { "value": "TR", "label": "Location" }
     ]
   },
@@ -109,35 +99,35 @@
     "title": "Frequently asked.",
     "items": [
       {
-        "q": "How long does building a mobile app take?",
-        "a": "Depends on scope, but a typical v1 takes 2-4 months. A smaller MVP can ship in 6-8 weeks; a larger product can run 6+ months."
+        "q": "Do you take on client work?",
+        "a": "No. mobiqo is an independent studio — we only build our own products. No service list, no work for hire."
       },
       {
-        "q": "iOS only?",
-        "a": "For now, yes. We don't want to add Android until we can do it well. Focusing on one platform keeps the quality bar high."
+        "q": "Why iOS only?",
+        "a": "Focusing on a single platform keeps both the quality bar and our own learning curve high. We'll consider Android only when we know we can do it well."
       },
       {
-        "q": "How is pricing decided?",
-        "a": "Every project is different. Instead of a fixed price list, we discuss scope and build a plan together. We aim to be transparent and clear."
+        "q": "Are you raising?",
+        "a": "No. mobiqo runs on its own revenue, not outside capital — a slow but free model."
       },
       {
-        "q": "Can you take over an existing codebase?",
-        "a": "Yes. Auditing an existing Swift project, fixing what's missing and moving it forward is one of the things we do."
+        "q": "Are you hiring?",
+        "a": "Not at the moment. When we open the team in the future, we'll announce it here."
       },
       {
-        "q": "Do you sign NDAs?",
-        "a": "Yes — an NDA is standard on every project. You can ask for one before sharing your idea."
+        "q": "Where can I download your apps?",
+        "a": "We'll list our App Store pages here soon. In the meantime, write to us via the form below if you'd like to hear when they ship."
       },
       {
-        "q": "How does post-launch work?",
-        "a": "We work via monthly or project-based support agreements. Sticking around while the product lives in the App Store is just part of the job."
+        "q": "How can I get in touch?",
+        "a": "The form below, or hello@mobiqo.app. Feedback, press, partnerships — all welcome."
       }
     ]
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Let's talk.",
-    "subtitle": "An idea, an unfinished codebase, or just a hello — write to us. We'll reply within 24 hours.",
+    "title": "Drop us a line.",
+    "subtitle": "Feedback, press, partnerships, or just a hello — write, we'll reply within 24 hours.",
     "form": {
       "name": "Name",
       "name_placeholder": "Your name",
@@ -146,7 +136,7 @@
       "subject": "Subject",
       "subject_placeholder": "A short title (optional)",
       "message": "Message",
-      "message_placeholder": "What would you like to tell us?",
+      "message_placeholder": "What would you like to share?",
       "submit": "Send",
       "submitting": "Sending...",
       "success_title": "Got it.",
@@ -168,7 +158,7 @@
     "location": "Türkiye"
   },
   "footer": {
-    "tagline": "A small mobile studio.",
+    "tagline": "An independent mobile studio.",
     "rights": "All rights reserved.",
     "made_in": "Designed in Türkiye"
   }

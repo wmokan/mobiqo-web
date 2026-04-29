@@ -1,79 +1,69 @@
 {
   "meta": {
-    "title": "mobiqo — küçük bir mobil stüdyo",
-    "description": "mobiqo, iOS uygulamaları tasarlayıp geliştiren küçük bir yazılım stüdyosu. Tek odak: mobil."
+    "title": "mobiqo — bağımsız bir mobil stüdyo",
+    "description": "mobiqo, App Store'da kendi yaptığı iOS uygulamalarını yayınlayan bağımsız bir mobil stüdyodur."
   },
   "nav": {
     "home": "Ana Sayfa",
-    "services": "Ne Yapıyoruz",
-    "process": "Nasıl Çalışıyoruz",
+    "services": "Felsefe",
+    "process": "Yaklaşımımız",
     "about": "Hakkımızda",
     "faq": "SSS",
     "contact": "İletişim"
   },
   "hero": {
-    "eyebrow": "Küçük bir mobil stüdyo",
-    "title_1": "Sadece mobil.",
-    "title_2": "Doğru yapılmış.",
-    "subtitle": "mobiqo; küçük bir ekiple iOS uygulamaları tasarlıyor, geliştiriyor ve yayında tutuyor. Bir tek şey yapıyoruz — onu da iyi yapmaya çalışıyoruz.",
-    "cta_primary": "Konuşalım",
-    "cta_secondary": "Nasıl çalışıyoruz?"
+    "eyebrow": "Bağımsız mobil stüdyo",
+    "title_1": "Kendi yaptığımız",
+    "title_2": "uygulamalar.",
+    "subtitle": "mobiqo, App Store'a kendi yaptığımız iOS uygulamalarını yayınlayan bağımsız bir stüdyodur. Hizmet listemiz yok, müşteri portföyümüz yok — yalnızca üzerinde uzun süre düşünüp dikkatle hazırladığımız ürünler.",
+    "cta_primary": "İletişim",
+    "cta_secondary": "Felsefemiz"
   },
   "services": {
-    "eyebrow": "Ne Yapıyoruz",
-    "title": "Tek odak: mobil uygulamalar.",
-    "body": "Web ajansı değiliz. Sayısız hizmet listemiz yok. Yaptığımız tek iş iOS uygulamaları — fikirden App Store'a, yayından sonrasına kadar. Sıfırdan başlayan bir fikir, devralınacak yarım kalmış bir kod ya da büyütülecek mevcut bir ürün — masada konuşulacak konu hep aynı.",
+    "eyebrow": "Felsefe",
+    "title": "Az ama özenli.",
+    "body": "Hızlıca çıkarılmış yirmi uygulama yerine, üzerinde yıllarca durabileceğimiz birkaç ürün yapmayı tercih ediyoruz. Her detay düşünülmüş, her ekran üzerinde uzlaşılmış, her satır kod bizim. Yatırımcı baskısı yok, peşinden koşulan bir KPI grafiği yok — yalnızca ürünün kendisi var.",
     "items": [
       {
-        "title": "Native iOS",
-        "desc": "Swift ve SwiftUI ile, Apple'ın platform yönergelerine sadık modern uygulamalar."
+        "title": "Bağımsızlık",
+        "desc": "Yatırımcı yok, dış sahip yok. Tüm kararlarımızı ürün ve kullanıcı lehine alıyoruz."
       },
       {
-        "title": "App Store yayını",
-        "desc": "Submission, review yanıtları, ASO ve lansman — hepsi bizim işimiz."
+        "title": "Kullanıcı odağı",
+        "desc": "Yayınladığımız her uygulamayı kendimiz de kullanıyoruz. Kendimizin açmayacağı bir ürünü çıkarmıyoruz."
       },
       {
-        "title": "Yayın sonrası destek",
-        "desc": "Lansman teslim noktası değil. Ürün yaşadıkça yanında dururuz: bug fix, yeni iOS uyumu, yeni özellikler."
+        "title": "Uzun vadeli",
+        "desc": "Lansman bir başlangıç noktasıdır, varış noktası değil. Ürünlerimiz aylar, yıllar boyunca olgunlaşır."
       }
     ]
   },
   "process": {
-    "eyebrow": "Nasıl Çalışıyoruz",
-    "title": "Beş adım. Az ama net.",
-    "subtitle": "Sürpriz yok. Her aşamada ne olduğunu, neyi neden yaptığımızı sana açıkça anlatırız.",
+    "eyebrow": "Yaklaşımımız",
+    "title": "Düşünmek, yapmak, dinlemek.",
+    "subtitle": "Tekrar eden üç adım. Pazarlama dili yok, akıllı görünmeye çalışan bir framework yok.",
     "steps": [
       {
         "n": "01",
-        "title": "Keşif",
-        "desc": "Problemi konuşuyoruz. Kim için, hangi davranışı değiştirmek istiyoruz, başarı ne demek?"
+        "title": "Düşün",
+        "desc": "Bir problem, bir niş, bir merak. Neyi neden yapacağımızı önce yazıya döküyoruz; koda sonra dokunuyoruz."
       },
       {
         "n": "02",
-        "title": "Tasarım",
-        "desc": "Akışlar, prototipler, mikro etkileşimler. Kâğıttan Figma'ya, oradan tıklanabilir prototipe."
+        "title": "Yap",
+        "desc": "Swift, SwiftUI, TestFlight. Hafif build'ler, hızlı iterasyon, Apple'ın platformuna sadık tasarım."
       },
       {
         "n": "03",
-        "title": "Geliştirme",
-        "desc": "Swift ile günlük ilerleyiş. TestFlight'tan haftalık build'ler, hızlı geri bildirim döngüsü."
-      },
-      {
-        "n": "04",
-        "title": "Yayın",
-        "desc": "App Store submission, review yanıtları, App Store optimizasyonu, lansman planı."
-      },
-      {
-        "n": "05",
-        "title": "Sürdürme",
-        "desc": "Yayından sonrası: kullanıcı geri bildirimi, bug fix, yeni iOS uyumu, yeni özellikler."
+        "title": "Dinle",
+        "desc": "App Store yorumları, kullanıcı mailleri, kendi günlük kullanımımız. Geri bildirim, ürünün asıl yarısıdır."
       }
     ]
   },
   "capabilities": {
-    "eyebrow": "Yetkinlik",
+    "eyebrow": "Stack",
     "title": "Kullandığımız araçlar.",
-    "subtitle": "Mobil tarafta hızlı, sade ve güvenli kalmamızı sağlayan modern stack.",
+    "subtitle": "Modern, sade, kanıtlanmış. Trendi takip etmek yerine doğrunun arkasında duruyoruz.",
     "groups": [
       { "title": "iOS", "items": ["Swift", "SwiftUI", "UIKit", "Combine", "Swift Concurrency"] },
       { "title": "Backend", "items": ["Node.js", "Cloudflare Workers", "PostgreSQL", "Redis"] },
@@ -83,24 +73,24 @@
   },
   "about": {
     "eyebrow": "Hakkımızda",
-    "title": "Küçük bir stüdyo. Net bir vizyon.",
-    "body_1": "mobiqo; birkaç kişiden oluşan küçük bir yazılım stüdyosu. Karmaşık problemleri sade, hızlı ve estetik mobil ürünlere dönüştürmek için varız.",
-    "body_2": "Ürünlerimizi sıfırdan tasarlıyor, geliştiriyor ve sürdürüyoruz. Tasarım, mühendislik ve ürün stratejisi aynı çatı altında — aynı oda, aynı masa, aynı kafa yapısı.",
+    "title": "Küçük bir stüdyo. Net bir hedef.",
+    "body_1": "mobiqo, kendi mobil ürünlerini geliştirip App Store'da yayınlayan bağımsız bir yazılım stüdyosudur. Türkiye merkezli, küçük bir ekiple çalışıyoruz.",
+    "body_2": "Müşteri kazanma, iş alma ya da hızlı büyüme baskımız yok. Bizi motive eden tek şey: insanların gerçekten kullanmak isteyeceği, uzun ömürlü iOS uygulamaları yapmak.",
     "values": [
       { "title": "Sadelik", "desc": "Az ama doğru. Her ekran bir amaca hizmet eder." },
-      { "title": "Performans", "desc": "Hızlı, akıcı, güvenilir. Kullanıcı beklemeyi sevmez, biz de." },
+      { "title": "Performans", "desc": "Hızlı, akıcı, güvenilir. Kullanıcı beklemekten hoşlanmaz, biz de." },
       { "title": "Estetik", "desc": "Güzel olan kullanılır. Tasarım, ürünün kendisi kadar önemli." },
-      { "title": "Süreklilik", "desc": "Ürünlerimiz teslim ettiğimiz an değil, kullanıldığı sürece yaşar." }
+      { "title": "Süreklilik", "desc": "Ürünlerimiz teslim edildiği anda değil, kullanıldığı sürece yaşar." }
     ]
   },
   "stats": {
     "eyebrow": "Sayılar",
-    "title": "Henüz başlangıçtayız.",
-    "subtitle": "Abartı yok. Şu anki halimiz, dürüstçe:",
+    "title": "Şu anki halimiz.",
+    "subtitle": "Mütevazı, dürüst, abartısız:",
     "items": [
-      { "value": "2", "label": "Yayında olan ürün" },
+      { "value": "2", "label": "App Store'da yayında" },
       { "value": "iOS", "label": "Tek platform odağı" },
-      { "value": "< 24s", "label": "İlk geri dönüş süresi" },
+      { "value": "0", "label": "Dış yatırımcı" },
       { "value": "TR", "label": "Konum" }
     ]
   },
@@ -109,35 +99,35 @@
     "title": "Sıkça sorulanlar.",
     "items": [
       {
-        "q": "Bir mobil uygulama ne kadar sürer?",
-        "a": "Kapsama bağlı, ama tipik bir v1 için 2-4 ay diyoruz. Daha küçük bir MVP 6-8 haftada, daha büyük bir ürün 6 ay+ sürebilir."
+        "q": "Müşteri projesi alıyor musunuz?",
+        "a": "Hayır. mobiqo bağımsız bir stüdyo — yalnızca kendi ürünlerimizi geliştiriyoruz. Hizmet listemiz yok, başkaları için yazılım üretmiyoruz."
       },
       {
-        "q": "Sadece iOS mu?",
-        "a": "Şimdilik evet. Android'i de iyi yapana kadar eklemek istemiyoruz. Tek platforma odaklanmak, kalite eşiğini yüksek tutuyor."
+        "q": "Neden sadece iOS?",
+        "a": "Tek bir platforma odaklanmak hem kalite eşiğini hem de öğrenme hızımızı yüksek tutuyor. Android'i ancak iyi yapabileceğimize emin olduğumuzda düşünürüz."
       },
       {
-        "q": "Maliyet nasıl belirleniyor?",
-        "a": "Her proje farklı. Sabit fiyat listesi yerine, kapsam üzerinde konuşup birlikte bir plan çıkarıyoruz. Şeffaf ve net olmaya özen gösteriyoruz."
+        "q": "Yatırımcı arıyor musunuz?",
+        "a": "Hayır. mobiqo dış yatırımla değil, kendi gelirimizle ilerliyor — yavaş ama özgür bir model."
       },
       {
-        "q": "Var olan bir kodu devralabilir misiniz?",
-        "a": "Evet. Mevcut bir Swift projesini denetleyip, eksiklerini gidermek ve ileri taşımak yapabildiğimiz işlerden biri."
+        "q": "Yeni iş ilanınız var mı?",
+        "a": "Şimdilik yok. İleride takıma katılım açtığımız bir gün gelirse buradan duyururuz."
       },
       {
-        "q": "NDA imzalıyor musunuz?",
-        "a": "Evet, gizlilik anlaşması her projede standart. Fikrini paylaşmadan önce isteyebilirsin."
+        "q": "Uygulamalarınızı nereden indirebilirim?",
+        "a": "App Store sayfalarımızı yakında bu sitede listeleyeceğiz. Çıkana kadar haberdar olmak istersen aşağıdaki formdan yazabilirsin."
       },
       {
-        "q": "Yayın sonrası nasıl çalışıyorsunuz?",
-        "a": "Aylık veya proje-bazlı destek anlaşmaları yapıyoruz. App Store'da ürün yaşadıkça yanında durmak işin doğal parçası."
+        "q": "Sizinle nasıl iletişime geçebilirim?",
+        "a": "Aşağıdaki form ya da hello@mobiqo.app. Geri bildirim, basın talebi, iş birliği önerisi — hepsi bizim için değerlidir."
       }
     ]
   },
   "contact": {
     "eyebrow": "İletişim",
-    "title": "Konuşalım.",
-    "subtitle": "Bir fikir, yarım kalmış bir kod ya da sadece bir merhaba — yaz, 24 saat içinde döneriz.",
+    "title": "Yazmak istersen.",
+    "subtitle": "Geri bildirim, basın, iş birliği önerisi ya da sadece bir merhaba — yaz, 24 saat içinde döneriz.",
     "form": {
       "name": "İsim",
       "name_placeholder": "Adın",
@@ -146,7 +136,7 @@
       "subject": "Konu",
       "subject_placeholder": "Kısa bir başlık (opsiyonel)",
       "message": "Mesaj",
-      "message_placeholder": "Bize ne söylemek istersin?",
+      "message_placeholder": "Ne paylaşmak istersin?",
       "submit": "Gönder",
       "submitting": "Gönderiliyor...",
       "success_title": "Aldık.",
@@ -168,7 +158,7 @@
     "location": "Türkiye"
   },
   "footer": {
-    "tagline": "Küçük bir mobil stüdyo.",
+    "tagline": "Bağımsız bir mobil stüdyo.",
     "rights": "Tüm hakları saklıdır.",
     "made_in": "Türkiye'de tasarlandı"
   }

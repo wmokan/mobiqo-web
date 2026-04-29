@@ -18,7 +18,7 @@ export function Process({ dict }: Props) {
           </p>
         </div>
 
-        <ol className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border md:grid-cols-5">
+        <ol className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border md:grid-cols-3">
           {dict.process.steps.map((step) => (
             <li
               key={step.n}
