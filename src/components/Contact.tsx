@@ -8,6 +8,11 @@ type Props = {
 };
 
 export function Contact({ lang, dict }: Props) {
+  const phoneHref = dict.contact.phone.replace(/\s/g, "");
+  const mapHref = `https://maps.google.com/?q=${encodeURIComponent(
+    dict.contact.address_lines.join(", "),
+  )}`;
+
   return (
     <section id="contact" className="scroll-mt-20 border-t border-border/60 bg-background-elev/20">
       <div className="mx-auto max-w-6xl px-6 py-24 sm:py-28">
@@ -37,12 +42,38 @@ export function Contact({ lang, dict }: Props) {
                   </a>
                 </dd>
               </div>
+
               <div>
                 <dt className="text-xs font-medium uppercase tracking-wider text-muted">
-                  {dict.contact.location_label}
+                  {dict.contact.phone_label}
                 </dt>
-                <dd className="mt-1.5 text-base font-semibold text-foreground">
-                  {dict.contact.location}
+                <dd className="mt-1.5">
+                  <a
+                    href={`tel:${phoneHref}`}
+                    className="text-base font-semibold text-foreground transition hover:text-accent"
+                  >
+                    {dict.contact.phone}
+                  </a>
+                </dd>
+              </div>
+
+              <div>
+                <dt className="text-xs font-medium uppercase tracking-wider text-muted">
+                  {dict.contact.address_label}
+                </dt>
+                <dd className="mt-1.5">
+                  <a
+                    href={mapHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block text-base font-semibold text-foreground transition hover:text-accent"
+                  >
+                    {dict.contact.address_lines.map((line) => (
+                      <span key={line} className="block">
+                        {line}
+                      </span>
+                    ))}
+                  </a>
                 </dd>
               </div>
             </dl>

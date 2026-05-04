@@ -154,8 +154,14 @@
     },
     "email_label": "Correo",
     "email": "hello@mobiqo.app",
-    "location_label": "Ubicación",
-    "location": "Türkiye"
+    "phone_label": "Teléfono",
+    "phone": "+90 850 840 1999",
+    "address_label": "Dirección",
+    "address_lines": [
+      "Cevizli Mah. Zuhal Cad.",
+      "A Blok No.46 D.50",
+      "Maltepe / İstanbul, Türkiye"
+    ]
   },
   "footer": {
     "tagline": "Un estudio móvil independiente.",

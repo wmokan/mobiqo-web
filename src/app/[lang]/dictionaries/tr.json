@@ -154,8 +154,14 @@
     },
     "email_label": "E-posta",
     "email": "hello@mobiqo.app",
-    "location_label": "Konum",
-    "location": "Türkiye"
+    "phone_label": "Telefon",
+    "phone": "+90 850 840 1999",
+    "address_label": "Adres",
+    "address_lines": [
+      "Cevizli Mah. Zuhal Cad.",
+      "A Blok No.46 D.50",
+      "Maltepe / İstanbul"
+    ]
   },
   "footer": {
     "tagline": "Bağımsız bir mobil stüdyo.",
